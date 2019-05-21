@@ -9,7 +9,7 @@ import users from "./server/api/users/users.js"
 const app = express();
 const oAppEnv = cfenv.getAppEnv();
 
-app.use( express.static( __dirname + '/public' ) );
+app.use( express.static( __dirname + '/../app' ) );
 
 // body parser middleware to handle URL parameter and JSON bodies
 app.use( bodyParser.urlencoded( {extended: false} ) );

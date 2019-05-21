@@ -2,7 +2,7 @@
 	"_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.3.0",
-		"id": "de.fpf.hcpcf.nodemongot01",
+		"id": "com.uniorg.cf.mongodb.example",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
@@ -26,7 +26,7 @@
 	"sap.ui5": {
 		"_version": "1.2.0",
 		"rootView": {
-			"viewName": "de.fpf.hcpcf.nodemongot01.view.App",
+			"viewName": "com.uniorg.cf.mongodb.example.view.App",
 			"type": "XML",
 			"id": "app"
 		},
@@ -50,7 +50,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "de.fpf.hcpcf.nodemongot01.i18n.i18n"
+					"bundleName": "com.uniorg.cf.mongodb.example.i18n.i18n"
 				}
 			}
 		},     
@@ -67,7 +67,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "de.fpf.hcpcf.nodemongot01.view",
+				"viewPath": "com.uniorg.cf.mongodb.example.view",
 				"controlId": "navContainer",
 				"controlAggregation": "pages",
 				"transition": "show"

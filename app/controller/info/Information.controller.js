@@ -1,10 +1,10 @@
 sap.ui.define([
-	"de/fpf/hcpcf/nodemongot01/controller/BaseController",
+	"com/uniorg/cf/mongodb/example/controller/BaseController",
 	"sap/ui/model/json/JSONModel"
 ], function(BaseController, JSONModel) {
 	"use strict";
 
-	return BaseController.extend("de.fpf.hcpcf.nodemongot01.controller.info.Information", {
+	return BaseController.extend("com.uniorg.cf.mongodb.example.controller.info.Information", {
 		onInit: function(){
 			var oJSONModel = new JSONModel();
 			this.getView().setModel(oJSONModel);

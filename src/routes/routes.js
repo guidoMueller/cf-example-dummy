@@ -4,7 +4,7 @@ import path from "path"
 
 let routes = function( oApp ) {
 	oApp.get( '/', function( req, res ) {
-		res.sendFile( path.join( __dirname, '../../public/', 'index.html' ) );
+		res.sendFile( path.join( __dirname, '../../app/', 'index.html' ) );
 	} );
 }
 

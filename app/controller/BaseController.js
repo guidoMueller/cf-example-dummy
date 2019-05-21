@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(Controller, History) {
 	"use strict";
 
-	return Controller.extend("de.fpf.hcpcf.nodemongot01.controller.BaseController", {
+	return Controller.extend("com.uniorg.cf.mongodb.example.controller.BaseController", {
 
 		getRouter: function() {
 			return this.getOwnerComponent().getRouter();

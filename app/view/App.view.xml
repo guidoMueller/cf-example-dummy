@@ -5,7 +5,7 @@
 	xmlns:core="sap.ui.core" 
 	height="100%"
 	displayBlock="true" 
-	controllerName="de.fpf.hcpcf.nodemongot01.controller.App">
+	controllerName="com.uniorg.cf.mongodb.example.controller.App">
 	<App>
 		<pages>
 			<tnt:ToolPage id="toolPage">

@@ -1,11 +1,11 @@
 sap.ui.define([
-	"de/fpf/hcpcf/nodemongot01/controller/BaseController",
+	"com/uniorg/cf/mongodb/example/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/MessageToast"
 ], function(BaseController, JSONModel, MessageToast) {
 	"use strict";
 
-	return BaseController.extend("de.fpf.hcpcf.nodemongot01.controller.user.Users", {
+	return BaseController.extend("com.uniorg.cf.mongodb.example.controller.user.Users", {
 		onInit: function(){
 			var oJSONModel = new JSONModel();
 			this.getView().setModel(oJSONModel);
@@ -86,7 +86,7 @@ sap.ui.define([
 
 		_getDialog : function () {
         	if (!this._oDialog) {
-            	this._oDialog = sap.ui.xmlfragment("de.fpf.hcpcf.nodemongot01.view.user.UserCreate", this);
+            	this._oDialog = sap.ui.xmlfragment("com.uniorg.cf.mongodb.example.view.user.UserCreate", this);
             	this.getView().addDependent(this._oDialog);
          	}
          	return this._oDialog;

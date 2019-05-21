@@ -1,7 +1,7 @@
 <mvc:View 
 	xmlns:mvc="sap.ui.core.mvc" 
 	xmlns="sap.m" 
-	controllerName="de.fpf.hcpcf.nodemongot01.controller.user.Users">
+	controllerName="com.uniorg.cf.mongodb.example.controller.user.Users">
 
     <Page showHeader="false">
         <content>

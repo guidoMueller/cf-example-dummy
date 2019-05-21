@@ -20,7 +20,8 @@ const app = (0, _express.default)();
 
 const oAppEnv = _cfenv.default.getAppEnv();
 
-app.use(_express.default.static(__dirname + '/public')); // body parser middleware to handle URL parameter and JSON bodies
+console.log(__dirname + '../app');
+app.use(_express.default.static(__dirname + '/../app')); // body parser middleware to handle URL parameter and JSON bodies
 
 app.use(_bodyParser.default.urlencoded({
   extended: false

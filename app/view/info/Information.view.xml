@@ -2,7 +2,7 @@
 	xmlns:mvc="sap.ui.core.mvc" 
 	xmlns="sap.m"
 	xmlns:code="sap.ui.codeeditor"
-	controllerName="de.fpf.hcpcf.nodemongot01.controller.info.Information">
+	controllerName="com.uniorg.cf.mongodb.example.controller.info.Information">
 
     <Page showHeader="false">
         <content>

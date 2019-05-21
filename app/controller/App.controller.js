@@ -1,9 +1,9 @@
 sap.ui.define([
-	"de/fpf/hcpcf/nodemongot01/controller/BaseController"
+	"com/uniorg/cf/mongodb/example/controller/BaseController"
 ], function(BaseController, MessageToast) {
 	"use strict";
 
-	return BaseController.extend("de.fpf.hcpcf.nodemongot01.controller.App", {
+	return BaseController.extend("com.uniorg.cf.mongodb.example.controller.App", {
 		onPressSideNavigationToggleButton: function (event) {
 			//var oSideNavigation = this.getView().byId('sideNavigation');
 			//oSideNavigation.setExpanded(!oSideNavigation.getExpanded());

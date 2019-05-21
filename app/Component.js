@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (UIComponent) {
 	"use strict";
 
-	return UIComponent.extend("de.fpf.hcpcf.nodemongot01.Component", {
+	return UIComponent.extend("com.uniorg.cf.mongodb.example.Component", {
 
 		metadata : {
 			manifest: "json"

@@ -11,7 +11,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 let routes = function (oApp) {
   oApp.get('/', function (req, res) {
-    res.sendFile(_path.default.join(__dirname, '../../public/', 'index.html'));
+    res.sendFile(_path.default.join(__dirname, '../../app/', 'index.html'));
   });
 };
 
