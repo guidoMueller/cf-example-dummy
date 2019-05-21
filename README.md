@@ -40,3 +40,11 @@ Deploy Application to Sap Cloud Foundry
 ```bash
 bash cf-push.sh
 ```
+
+### Development
+
+Watch NodeJS Files with Babel
+
+```bash
+yarn watch
+```
