@@ -1,0 +1,35 @@
+<mvc:View 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m"
+	xmlns:code="sap.ui.codeeditor"
+	controllerName="de.fpf.hcpcf.nodemongot01.controller.info.Information">
+
+    <Page showHeader="false">
+        <content>
+	        <Table id="infoTable" items="{ path: '/' }">
+		        <headerToolbar>
+			        <Toolbar>
+				        <Title text="{i18n>information}"/>
+			        </Toolbar>
+		        </headerToolbar>
+		        <columns>
+			        <Column width="20%">
+				        <Text text="{i18n>object}" />
+			        </Column>
+					<Column>
+						<Text text="{i18n>value}" />
+					</Column>
+				</columns>
+		        <items>
+			        <ColumnListItem>
+				        <cells>
+                            <Text text="{object}"/>
+							<code:CodeEditor value='{value}' height="80px" type="json"/>
+				        </cells>
+			        </ColumnListItem>
+		        </items>
+	        </Table>
+        </content>
+    </Page>
+
+</mvc:View>

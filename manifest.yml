@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-example-dummy
+  memory: 192M
+  instances: 1
+  random-route: false
+  host: node-example
+  services:
+  - mongodb-service
