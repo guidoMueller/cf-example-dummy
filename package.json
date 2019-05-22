@@ -8,6 +8,25 @@
   "engines": {
     "node": "11.10.1"
   },
+  "keywords": [
+    "ui5",
+    "sap",
+    "sapui5",
+    "openui5",
+    "babel",
+    "babeljs",
+    "babel-plugin",
+    "babelplugin",
+    "es6",
+    "cf",
+    "Cloud Foundry",
+    "Sap Cloud Foundry",
+    "SAP",
+    "Uniorg",
+    "fints",
+    "online banking",
+    "Sap Mobile Service"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel -d build/ src/",
